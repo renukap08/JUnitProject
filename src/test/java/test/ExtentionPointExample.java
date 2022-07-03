@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 import junits.CustomAnnotation;
+import junits.EnvCheck;
 import junits.StringFunctions;
 
 
@@ -30,6 +31,6 @@ public class ExtentionPointExample {
 	public void test2() {
 		
 		
-		assertFalse(StringFunctions.isPalindrome("nikunj"));
+		assertFalse(StringFunctions.isPalindrome("renuka"));
 	}
 }

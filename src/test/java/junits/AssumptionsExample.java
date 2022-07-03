@@ -31,4 +31,10 @@ public class AssumptionsExample {
 		assumeTrue("PROD".equals(System.getProperty("ENV")));
 		assertFalse(StringFunctions.isPalindrome("RENUKA"));
 	}
+
+
+	private void assertFalse(boolean palindrome) {
+		// TODO Auto-generated method stub
+		
+	}
 }

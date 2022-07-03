@@ -1,10 +1,9 @@
-package test;
+package junits;
 
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.api.extension.ParameterContext;
 import org.junit.jupiter.api.extension.ParameterResolutionException;
 import org.junit.jupiter.api.extension.ParameterResolver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ParameterProvideExample implements ParameterResolver{
 
@@ -13,7 +12,7 @@ public class ParameterProvideExample implements ParameterResolver{
 			throws ParameterResolutionException {
 		// TODO Auto-generated method stub
 		
-		return parameterContext.getParameter().getType() == ChromeDriver.class;
+		return parameterContext.getParameter().getType() == ChromeDriverParameterEx.class;
 	}
 
 	@Override
@@ -21,7 +20,7 @@ public class ParameterProvideExample implements ParameterResolver{
 			throws ParameterResolutionException {
 		// TODO Auto-generated method stub
 		
-		return new ChromeDriver();
+		return new ChromeDriverParameterEx();
 		
 	}
 }
