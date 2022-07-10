@@ -1,4 +1,4 @@
-package junits;
+package test;
 
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.api.extension.ParameterContext;

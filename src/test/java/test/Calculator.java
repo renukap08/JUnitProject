@@ -1,4 +1,4 @@
-package junits;
+package test;
 
 
 public class Calculator {

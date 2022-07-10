@@ -8,10 +8,6 @@ import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
-import junits.CustomAnnotation;
-import junits.EnvCheck;
-import junits.StringFunctions;
-
 
 @ExtendWith(EnvCheck.class)
 
